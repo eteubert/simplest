@@ -12,11 +12,13 @@
   <body <?php body_class(); ?>>
     <div id="container">
       <div id="header">
-        <h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo( 'name' ); ?></a></h1>
-        <p id="description"><?php bloginfo( 'description' ); ?></p>
-        <?php if ( has_nav_menu( 'menu' ) ) : wp_nav_menu(); else : ?>
-          <ul><?php wp_list_pages( 'title_li=&depth=-1' ); ?></ul>
-        <?php endif; ?>
+					<div id="header_container">
+						<h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+		        <p id="description"><?php bloginfo( 'description' ); ?></p>
+		        <?php if ( has_nav_menu( 'menu' ) ) : wp_nav_menu(); else : ?>
+		          <ul><?php wp_list_pages( 'title_li=&depth=-1' ); ?></ul>
+		        <?php endif; ?>
+					</div>
       </div><!-- header -->
       <div id="content">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
