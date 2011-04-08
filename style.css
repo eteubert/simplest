@@ -12,9 +12,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 /*
  * Colors
- * rgb(43, 43, 43)      black
+ * rgb(43 , 43 , 43)    black
  * rgb(230, 225, 220)   white
  * rgb(112, 157, 191)   blue
+ * rgb(201, 119, 46 )   orange
+ * rgb(167, 193, 92 )   green
+ * rgb(214, 72 , 55)    red
  */
 
 /* http://meyerweb.com/eric/tools/css/reset */
@@ -88,11 +91,12 @@ sub {
 }
 
 body {
-    color: #111;
+    background: rgb(230, 225, 220);
+    color: rgb(43, 43, 43);
 }
 
 a {
-    color: #111;
+    color: rgb(214, 72 , 55);
 }
 
 p {
@@ -111,11 +115,11 @@ h3 {
     font-size: 1.1em;
 }
 
-h1 a {
+a {
     text-decoration: none;
 }
 
-h1 a:hover {
+a:hover {
     text-decoration: underline;
 }
 
@@ -137,10 +141,6 @@ h1,h2,h3,h4,h5,h6 {
     width: 768px;
     margin: 0em auto;
     padding: 2em 0em;
-}
-
-#header a {
-    color: rgb(230, 225, 220);
 }
 
 #header #description {
