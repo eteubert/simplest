@@ -138,6 +138,14 @@ h2 {
     font-size: 1.7em;
 }
 
+h2 a {
+    color: rgb(43, 43, 43);
+}
+
+h2 a:hover {
+    color: rgb(214, 72 , 55);
+}
+
 h3 {
     font-size: 1.3em;
 }
