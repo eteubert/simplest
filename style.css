@@ -25,7 +25,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* Fonts */
 body {
-    font-family: "Helvetica", "Lucida Grande", "Gill Sans", "Verdana", sans-serif;
+    font-family: "Palatino", "Georgia", "Helvetica", "Times New Roman", serif;
+    font-size: 19px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,6 +35,8 @@ h1, h2, h3, h4, h5, h6 {
 
 pre {
     font-family: "Bitstream Vera Sans Mono", Monaco, "Lucida Console", Terminal, monospace;
+    font-size: 15px;
+    line-height: 22px;
 }
 
 @font-face {
@@ -198,7 +201,7 @@ h1,h2,h3,h4,h5,h6 {
 .hentry, .meta, #respond {
     margin-bottom: 2em;
     padding-bottom: 1em;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px dashed rgb(214, 72 , 55);
 }
 
 .hentry h2, .hentry h3, .hentry h4 {
