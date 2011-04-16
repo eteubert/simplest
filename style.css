@@ -162,6 +162,9 @@ h1,h2,h3,h4,h5,h6 {
 #header {
     background: rgb(43, 43, 43);
     color: rgb(230, 225, 220);
+    -webkit-box-shadow: inset black 0 -5px 15px;
+    -moz-box-shadow: inset black 0 -5px 15px;
+    box-shadow: inset black 0 -5px 15px;
 }
 
 #header_container {
