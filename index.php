@@ -55,6 +55,39 @@
         <?php endif; ?>
         <div class="clear"> </div>
       </div><!-- content -->
+
+			<div id="footer">
+					<div id="footer_container">
+						<div id="functions">
+							<ul>
+								<li>
+									<a href="http://www.twitter.com/ericteubert">Twitter</a>
+								</li>
+								<li>
+									<a href="http://feeds.feedburner.com/FarBeyondProgramming">RSS Feed</a>
+								</li>
+								<li>
+									<a href="https://github.com/eteubert">GitHub</a>
+								</li>
+							</ul>
+						</div>
+						<div id="about">
+							<p>
+								Hi! I'm Eric.
+							</p>
+							<p>
+								I am a computing student who is in love with developing software of all kinds. I am continuously trying to get better at what I do.
+							</p>
+							<p>
+								This blog is supposed to be a place to share my thoughts and the knowledge I gather on my path.
+							</p>
+						</div>
+						<div id="copyright">
+							Eric Teubert • Far Beyond Programming
+						</div>
+					</div>
+      </div><!-- header -->
+
     </div><!-- container -->
     <?php wp_footer(); ?>
   </body>

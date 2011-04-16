@@ -193,6 +193,47 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0 0.5em 0 0;
 }
 
+#footer {
+    background: rgb(43, 43, 43);
+    color: rgb(230, 225, 220);
+    -webkit-box-shadow: inset black 0 5px 15px;
+    -moz-box-shadow: inset black 0 5px 15px;
+    box-shadow: inset black 0 5px 15px;
+    font-size: 14px;
+}
+
+#footer_container {
+    position: relative;
+    width: 768px;
+    margin: 0em auto;
+    padding: 2em 0em;
+}
+
+#about {
+    width: 300px;
+    text-align: justify;
+}
+
+#copyright {
+    padding: 2em 0em;
+}
+
+#functions {
+    position: absolute;
+    top: 4em;
+    left: -120px;
+    width: 100px;
+}
+
+#functions ul {
+    text-align: right;
+    list-style-type: none;
+}
+
+#functions ul li {
+    list-style-type: none;
+}
+
 #content {
     width: 768px;
     margin: 4em auto;    
