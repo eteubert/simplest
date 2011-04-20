@@ -67,6 +67,9 @@
 									<a href="http://feeds.feedburner.com/FarBeyondProgramming">RSS Feed</a>
 								</li>
 								<li>
+									<a href="/date-archive">Archive</a>
+								</li>
+								<li>
 									<a href="https://github.com/eteubert">GitHub</a>
 								</li>
 							</ul>
