@@ -85,15 +85,17 @@ blockquote {
     border-left: 1px solid #ddd;
 }
 
-pre {
-    background: rgb(43, 43, 43);
-    color: rgb(230, 225, 220);
-    padding: 0.5em;
+em, pre {
+    font-style: normal;
+    color: rgb(43, 43,43);
+    background: ghostWhite;
+    padding: 2px 5px;
+    border: 1px solid #dedede;
     overflow: auto;
 }
 
 .gist pre {
-    color: black;
+    color: rgb(43, 43,43);
 }
 
 sup, sub {
