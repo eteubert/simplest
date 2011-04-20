@@ -153,7 +153,7 @@ h2 a:hover {
     color: rgb(214, 72 , 55);
 }
 
-h3 {
+h3, .post h1, .post h2 {
     font-size: 1.3em;
 }
 
@@ -371,4 +371,31 @@ h1,h2,h3,h4,h5,h6 {
 #comments li.comment #respond #cancel-comment-reply-link {
     font-size: 0.7em;
     margin-left: 1em;
+}
+
+/* =========== */
+/* = Plugins = */
+/* =========== */
+
+#simple_archive {
+    font-size: 0.8em;
+}
+
+#simple_archive li {
+    list-style-type: none;
+}
+
+#simple_archive li span {
+    display: block;
+    float: left;
+    text-align: right;
+    width: 210px;
+    margin-right: 70px;
+}
+
+#simple_archive h3 {
+    width: 200px;
+    text-align: right;
+    margin: 20px 0px 20px 10px;
+    font-weight: normal;
 }
