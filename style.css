@@ -92,6 +92,10 @@ pre {
     overflow: auto;
 }
 
+.gist pre {
+    color: black;
+}
+
 sup, sub {
     height: 0;
     line-height: 1;
