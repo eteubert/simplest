@@ -39,6 +39,10 @@ pre {
     line-height: 22px;
 }
 
+blockquote {
+    font-family: "KontrapunktLight", "Rockwell", "Georgia", "Palatino", serif;
+}
+
 @font-face {
     font-family: 'Gentium Book Basic';
     src: url('fonts/GenBkBasB.ttf') format('truetype');
@@ -51,6 +55,13 @@ pre {
     src: url('fonts/GenBkBasR.ttf');
     font-weight: 400;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'KontrapunktLight';
+    src: url('fonts/Kontrapunkt-Light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
 }
 
 /* simplest */
@@ -82,7 +93,7 @@ th, td {
 blockquote {
     margin: 0 2em;
     padding-left: 1em;
-    border-left: 3px solid rgb(43, 43,43);
+    border-left: 2px solid rgb(43, 43,43);
 }
 
 em, pre {
