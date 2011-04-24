@@ -80,9 +80,9 @@ th, td {
 }
 
 blockquote {
-    margin: 0 1em;
+    margin: 0 2em;
     padding-left: 1em;
-    border-left: 1px solid #ddd;
+    border-left: 3px solid rgb(43, 43,43);
 }
 
 em, pre {
