@@ -72,6 +72,9 @@
 								<li>
 									<a href="https://github.com/eteubert">GitHub</a>
 								</li>
+								<li>
+									<a href="http://www.FarBeyondProgramming.com/impressum">Imprint</a>
+								</li>
 							</ul>
 						</div>
 						<div id="about">
